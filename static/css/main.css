@@ -1,3 +1,13 @@
+/* colors 
+
+#B1AAAA
+#191919
+#525252 - links
+
+
+*/
+
+/* Global */
 
 * {
   padding: 0;
@@ -8,7 +18,50 @@ html {
   box-sizing: border-box;  
 }
 
+/* Header and Navigation */
+
+nav {
+
+}
+
 ul li {
+
+}
+
+
+ul li a {
    list-style-type: none; 
    text-decoration: none; 
+   color: #525252;
+
 }
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer {
+
+}
+
+footer ul li {
+
+}
+
+footer ul li a {
+
+}
+
+footer p {
+
+}
+
+
+

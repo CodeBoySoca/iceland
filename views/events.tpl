@@ -1,3 +1,1 @@
-backend/
-venv/
-.DS_Store
+% rebase('base.tpl')

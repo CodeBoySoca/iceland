@@ -19,33 +19,34 @@ def jpeg(filename):
 
 
 
+
 @route('/', name='index')
 def index():
     return template('index')
 
 @route('/geography', name='geography')
 def geography():
-    pass
+    return template('geography')
 
 @route('/contact', name='contact')
 def contact():
-    pass
+    return template('contact')
 
 @route('/events', name='events')
 def events():
-    pass
+    return template('events')
 
 @route('/trade-and-invest', name='trade_and_invest')
 def trade_and_invest():
-    pass
+    return template('trade-invest')
 
 @route('/arts-and-culture', name='arts_and_culture')
 def arts_and_culture():
-    pass
+    return template('arts-culture')
 
 @route('/iceland-abroad', name='iceland_abroad')
 def iceland_abroad():
-    pass
+    return template('iceland-abroad')
 
 
 
